@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.967ba849.css">
+  <script src="/style.967ba849.js"></script></head>
+
+  <body>
+    <nav class="navbar">
+      <h1 class="nav-brand">Shopping list</h1>
+    </nav>
+
+    <main class="container">
+      <form id="shopping-list-form">
+        <label class="label" for="component-name">Add item</label>
+        <input type="text" class="input" required="" placeholder="Item (example: Pasta)" id="item-name">
+        <input type="submit" class="btn btn-default" value="Add">
+
+        <label for="priority">Priority</label>
+        <input type="radio" id="hidh" name="priority" value="hidh">
+        <label for="hidh">hidh</label>
+        <input type="radio" id="medium" name="priority" value="medium">
+        <label for="medium">medium</label>
+        <input type="radio" id="low" name="priority" value="low" checked="">
+        <label for="low">low</label>
+      </form>
+
+      <ul id="shopping-list"></ul>
+      <hr>
+      <strong>Exported CSV</strong>
+      <p id="exported-json"></p>
+    </main>
+    <script type="module" src="/js.d818e0ef.js"></script>
+  </body>
+</html>
